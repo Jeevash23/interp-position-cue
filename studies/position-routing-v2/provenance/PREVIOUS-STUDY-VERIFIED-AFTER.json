@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "verified_study_files": 1712,
+  "bytes": 5443066061,
+  "upstream_and_frozen_files_preserved": true,
+  "condition_records": 18304,
+  "model_examples": 25544,
+  "scope": "Evidence integrity and accurate closure, including the documented singleton tolerance failure"
+}

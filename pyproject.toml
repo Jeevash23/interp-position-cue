@@ -1,0 +1,37 @@
+[project]
+name = "position-cue-ioi"
+version = "1.0.0"
+description = "Code release: a fixed internal signal acts as a relative-position cue in GPT-2 Medium"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+# The exact environment the studies ran in (uv.lock pins every package). The `experiment` extra is the full
+# research environment; the code here needs torch, transformers, numpy, scipy and matplotlib from it.
+[project.optional-dependencies]
+experiment = [
+  "datasets==5.0.1",
+  "einops==0.8.2",
+  "huggingface-hub==1.29.0",
+  "jaxtyping==0.3.11",
+  "jupyterlab==4.6.3",
+  "matplotlib==3.11.1",
+  "numpy==2.5.2",
+  "pandas==3.0.5",
+  "safetensors==0.8.0",
+  "scipy==1.18.1",
+  "seaborn==0.13.2",
+  "torch==2.13.0",
+  "tqdm==4.70.0",
+  "transformer-lens==3.8.0",
+  "transformers==5.16.1",
+]
+
+[dependency-groups]
+dev = [
+  "numpy>=2",
+  "pytest>=8",
+  "ruff>=0.9",
+]
+
+[tool.uv]
+package = false

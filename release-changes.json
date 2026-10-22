@@ -1,0 +1,502 @@
+{
+ "release": "position-cue-ioi",
+ "changed_files": {
+  "provenance/preparation-2026-10-07/02-Code/support.py": {
+   "kind": "redacted",
+   "original_sha256": "b405f60393c511f6d096fbe0d7007a05e17b4ddee5f0980d33c5be58734900d4",
+   "release_sha256": "bbe6b49a5fbbf01c008cc263f2d60dd02b8248e50c0cd55b48372bf3ae291efc",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "provenance/preparation-2026-10-07/03-Data/prepared/preparation-manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "a06d9752fb549171c0366fceaa8b8f1a4987ace63c023dc117c2417b4ac7ed4d",
+   "release_sha256": "0e4a9ea3119d7075fd62ed79fcf78db3fc3f9c197ce88b605a3530a41186d07c",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "provenance/preparation-2026-10-07/05-Notes/RUNBOOK.md": {
+   "kind": "redacted",
+   "original_sha256": "557bcfaced457e2b5a7a33ce76bc0ad147d58679ad8dc59002215235d73ea1e6",
+   "release_sha256": "b67493a7cc54ff9b6e2c09bf447211e7b494f5b14e3fb7cb8f80be5c29a1b993",
+   "redactions": {
+    "machine path": 1
+   }
+  },
+  "provenance/preparation-2026-10-07/06-Study-History/ASSET-REFERENCES.json": {
+   "kind": "redacted",
+   "original_sha256": "5b354b6343184b034ff1d26e6e0df69191fe1c1631ff737954bf3cdae8b40143",
+   "release_sha256": "cf86e2fc511984fac171f05ab98819debbec0297a594afedf5f2408011dc74d5",
+   "redactions": {
+    "sibling project": 4
+   }
+  },
+  "provenance/preparation-2026-10-07/06-Study-History/PREPARATION-CHECK.json": {
+   "kind": "redacted",
+   "original_sha256": "7f3148b1ed287b4a206ea55c603b53d73dc8b14805b05b8a0e3df25875755b21",
+   "release_sha256": "9597e3ff81677376478c54884e7bc7aec662dc035fd7759f264c4b45b8ccccfd",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "provenance/preparation-2026-10-07/06-Study-History/STATUS.json": {
+   "kind": "redacted",
+   "original_sha256": "f81fd6c2a4127dd508a90a709f0b8aba4ca86bcc59c8492c73d8bc30af9fb2d1",
+   "release_sha256": "fd05cc221c7b38d433b4beef9497cdd796dcfb31d0b50bf4668c512edfe8c675",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "provenance/preparation-2026-10-07/README.md": {
+   "kind": "redacted",
+   "original_sha256": "3f7c8adc7374e8ce20f057b76d5932a07952c334bcee02242a2b7e47f30aee6a",
+   "release_sha256": "c7df35a03e6db13820c3cc0fa7179b17cde5a1ba6be66807b78e7ce3cad436f0",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "studies/fixed-signal-v1/REPRODUCIBILITY.md": {
+   "kind": "redacted",
+   "original_sha256": "c65f2b983c32a446a63207148690f55bbc8aca383c698314c839748832e5bbb1",
+   "release_sha256": "98b02547f53309fabd6be16487e8e197c27fbc5b58e12c4738c9f070a30ab96d",
+   "redactions": {
+    "environment path": 2,
+    "model path": 1,
+    "portfolio folder": 1,
+    "project folder": 2
+   }
+  },
+  "studies/fixed-signal-v1/analysis/EVIDENCE-AUDIT.json": {
+   "kind": "redacted",
+   "original_sha256": "0031c4860094adbb7a26c15f86d5b733097ace82c7d4bb454ad998592f176f80",
+   "release_sha256": "a9e17248e19574999995b7a1e13d4e3eb99cb1a671ec5386293d824941f33e39",
+   "redactions": {
+    "sibling project": 4
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz"
+  },
+  "studies/fixed-signal-v1/code/core.py": {
+   "kind": "adapted",
+   "original_sha256": "f1c300f7f69cb65002f9a7f10e5c2b49ff75f60203c3fa3b03de939b0c464654",
+   "release_sha256": "974c3e2e23ad1adc565f91eba2ba94f1704f1b904ea43afe4d87255a2ce246b9",
+   "frozen_in": [
+    "studies/fixed-signal-v1/protocol/QUALIFICATION-FREEZE.json"
+   ],
+   "reasons": [
+    "the checkpoint comes from MODELS_DIR (default models/ in the release) and the GPU lock from GPU_LOCK"
+   ]
+  },
+  "studies/fixed-signal-v1/code/prepare_confirmation.py": {
+   "kind": "adapted",
+   "original_sha256": "9ba31abc921d972cbd296d48731bde4b491e7bc2f6eb5b05b5a4ab689cabb9d7",
+   "release_sha256": "c8e4f7ceb3947a7d5cace17d93254d13308d09a52eed731d25bfeb66f48d68fd",
+   "frozen_in": [
+    "studies/fixed-signal-v1/protocol/CONFIRMATION-DESIGN-FREEZE.json"
+   ],
+   "reasons": [
+    "the earlier project's folder comes from EARLIER_PROJECT_DIR"
+   ]
+  },
+  "studies/fixed-signal-v1/code/prepare_inputs.py": {
+   "kind": "adapted",
+   "original_sha256": "1ae3de2a33a2f5ef8e2ddad2fd40889ff26b340ef5752c56d547115d378dadd9",
+   "release_sha256": "73c5f151e86b1b316b713037e50933c0a3bfaa952e08579fd5ff03ee4354e876",
+   "frozen_in": [
+    "studies/fixed-signal-v1/protocol/QUALIFICATION-FREEZE.json"
+   ],
+   "reasons": [
+    "the source-head configuration is read from the copy in reference/"
+   ]
+  },
+  "studies/fixed-signal-v1/data/confirmation-qualified.json": {
+   "kind": "redacted",
+   "original_sha256": "0bf66eaf210f78effaebd1b9654788c282c2480fefa7278c0d304132afd6c387",
+   "release_sha256": "89541ac0a1f20e5d856f24f24e83f0a9eac00508659ea18d8bd579204dbdb564",
+   "redactions": {
+    "sibling project": 98
+   },
+   "archive": "studies/fixed-signal-v1/data/confirmation-qualified.json.xz",
+   "frozen_in": [
+    "studies/fixed-signal-v1/protocol/HELDOUT-FREEZE.json"
+   ]
+  },
+  "studies/fixed-signal-v1/provenance/MODEL-ASSETS.json": {
+   "kind": "redacted",
+   "original_sha256": "886a32034b3a2bb2546caddbbc72bac25adaef079c15a2e98d06916a2f58a5a6",
+   "release_sha256": "7c84ba07c8ea55d0d93096a4b344ab56cae8e117dfefbd89b12b2796e7f3d585",
+   "frozen_in": [
+    "studies/fixed-signal-v1/protocol/RESPONSE-FREEZE.json"
+   ],
+   "redactions": {
+    "absolute path": 1,
+    "model path": 1
+   }
+  },
+  "studies/fixed-signal-v1/provenance/PREPARATION-SNAPSHOT.json": {
+   "kind": "redacted",
+   "original_sha256": "c213ec30c98f8190fef3b463afe315c8628529a6a7d297870d84741a60090cf1",
+   "release_sha256": "0484ebb174bc3eb3616be02b71be286f5e0fded68e5e8825281f1781ae9104e9",
+   "redactions": {
+    "sibling project": 4
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/02-Code/support.py": {
+   "kind": "redacted",
+   "original_sha256": "b405f60393c511f6d096fbe0d7007a05e17b4ddee5f0980d33c5be58734900d4",
+   "release_sha256": "bbe6b49a5fbbf01c008cc263f2d60dd02b8248e50c0cd55b48372bf3ae291efc",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/03-Data/prepared/preparation-manifest.json": {
+   "kind": "redacted",
+   "original_sha256": "a06d9752fb549171c0366fceaa8b8f1a4987ace63c023dc117c2417b4ac7ed4d",
+   "release_sha256": "0e4a9ea3119d7075fd62ed79fcf78db3fc3f9c197ce88b605a3530a41186d07c",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/05-Notes/RUNBOOK.md": {
+   "kind": "redacted",
+   "original_sha256": "557bcfaced457e2b5a7a33ce76bc0ad147d58679ad8dc59002215235d73ea1e6",
+   "release_sha256": "b67493a7cc54ff9b6e2c09bf447211e7b494f5b14e3fb7cb8f80be5c29a1b993",
+   "redactions": {
+    "machine path": 1
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/06-Study-History/ASSET-REFERENCES.json": {
+   "kind": "redacted",
+   "original_sha256": "5b354b6343184b034ff1d26e6e0df69191fe1c1631ff737954bf3cdae8b40143",
+   "release_sha256": "cf86e2fc511984fac171f05ab98819debbec0297a594afedf5f2408011dc74d5",
+   "redactions": {
+    "sibling project": 4
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/06-Study-History/PREPARATION-CHECK.json": {
+   "kind": "redacted",
+   "original_sha256": "7f3148b1ed287b4a206ea55c603b53d73dc8b14805b05b8a0e3df25875755b21",
+   "release_sha256": "9597e3ff81677376478c54884e7bc7aec662dc035fd7759f264c4b45b8ccccfd",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/06-Study-History/STATUS.json": {
+   "kind": "redacted",
+   "original_sha256": "f81fd6c2a4127dd508a90a709f0b8aba4ca86bcc59c8492c73d8bc30af9fb2d1",
+   "release_sha256": "fd05cc221c7b38d433b4beef9497cdd796dcfb31d0b50bf4668c512edfe8c675",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/README.md": {
+   "kind": "redacted",
+   "original_sha256": "3f7c8adc7374e8ce20f057b76d5932a07952c334bcee02242a2b7e47f30aee6a",
+   "release_sha256": "c7df35a03e6db13820c3cc0fa7179b17cde5a1ba6be66807b78e7ce3cad436f0",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "studies/fixed-signal-v1/runs/batch-replay/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "9fcfac25eb81e52481d174a8890f18b5b4c6de3033b1c806814ba85ff865f97c",
+   "release_sha256": "b40975d76d39c3274af29e61a92a92f2a34efe00975052fca79c6d72334a697a",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz"
+  },
+  "studies/fixed-signal-v1/runs/confirmation/status.json": {
+   "kind": "redacted",
+   "original_sha256": "bc23cc804c8bc1fa3b05d997190be018ec86b170a6b01d414035bebeaaf4b79f",
+   "release_sha256": "d35d58b4a1794c80c037fb7b3efaaf15e561dc189a3bc1e0642f936120372d6d",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz"
+  },
+  "studies/fixed-signal-v1/runs/development/status.json": {
+   "kind": "redacted",
+   "original_sha256": "8f6cee4a25bc820bbbc7fda09bb3fd95bfbd4b44ea6c905199ac962dcb60b1f0",
+   "release_sha256": "c9eb35ef7bb7353352500446a8531645dc7f062cbf649bd77ee02d9c0a1ff64d",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz"
+  },
+  "studies/fixed-signal-v1/runs/holdout/status.json": {
+   "kind": "redacted",
+   "original_sha256": "25605bcbf2f648508112e772ea8de4f15a3c202832afc60de677c74226175436",
+   "release_sha256": "f02befc7903fa035a0b4e508a167990df6731657e5f161d611d5144aa5c40de8",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz"
+  },
+  "studies/fixed-signal-v1/runs/model-replay/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "ba815e9ad578f18dc16d3853a758a71b85d61ff0314fe536193e787cb3d941c7",
+   "release_sha256": "ddfb0c99ea0f604ebb5da32fdae0cc7a1114050c308acc299d644ab4fdf513f4",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz"
+  },
+  "studies/fixed-signal-v1/runs/qualification/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "42c6a5d77dff4cb8cc44ff06410b2b2256c2e6dfc6c67094793e2ab05ba67f27",
+   "release_sha256": "4e09b4bed2d935f7eeb6c72c527f5bad8e9395566e0c811286fc3d85fdf936e6",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study1-fixed-signal.tar.xz",
+   "frozen_in": [
+    "studies/fixed-signal-v1/protocol/RESPONSE-FREEZE.json"
+   ]
+  },
+  "studies/pathway-interactions-v3/REPRODUCIBILITY.md": {
+   "kind": "redacted",
+   "original_sha256": "5866d4d3ffd68aecbadcc6ce9e1b1bf8cc595b2d454e7cc2896a6085397d464e",
+   "release_sha256": "4299a6db8967569df1b322d627aec3cade5006fd888971d447d773ea6a8b96b0",
+   "redactions": {
+    "environment path": 2,
+    "portfolio folder": 1,
+    "project folder": 2,
+    "machine details": 1
+   }
+  },
+  "studies/pathway-interactions-v3/code/core.py": {
+   "kind": "adapted",
+   "original_sha256": "f1c300f7f69cb65002f9a7f10e5c2b49ff75f60203c3fa3b03de939b0c464654",
+   "release_sha256": "974c3e2e23ad1adc565f91eba2ba94f1704f1b904ea43afe4d87255a2ce246b9",
+   "frozen_in": [
+    "studies/pathway-interactions-v3/protocol/DESIGN-FREEZE.json"
+   ],
+   "reasons": [
+    "the checkpoint comes from MODELS_DIR (default models/ in the release) and the GPU lock from GPU_LOCK"
+   ]
+  },
+  "studies/pathway-interactions-v3/provenance/MODEL-ASSETS.json": {
+   "kind": "redacted",
+   "original_sha256": "886a32034b3a2bb2546caddbbc72bac25adaef079c15a2e98d06916a2f58a5a6",
+   "release_sha256": "7c84ba07c8ea55d0d93096a4b344ab56cae8e117dfefbd89b12b2796e7f3d585",
+   "redactions": {
+    "absolute path": 1,
+    "model path": 1
+   }
+  },
+  "studies/pathway-interactions-v3/runs/confirmation/status.json": {
+   "kind": "redacted",
+   "original_sha256": "078d3fd0a89426052a1fc502377101f4d1eb89c3aa310d715c2f261c0acf4bda",
+   "release_sha256": "71768c462f4fff6df559cd38a62f6c478a55954af279c647b5ec02389a5640a3",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-pathway-interactions.tar.xz"
+  },
+  "studies/pathway-interactions-v3/runs/development/status.json": {
+   "kind": "redacted",
+   "original_sha256": "e0c517ef025245cefd8462e79df4bfd0d311d5a758cdbeeee81f9ba2211b17b2",
+   "release_sha256": "fb783fdba661e320a19c097397cb16f698f98502c098122fc6313342ae2eeb44",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-pathway-interactions.tar.xz"
+  },
+  "studies/pathway-interactions-v3/runs/qualification/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "76bf9694206e300773d2222d3eef09532c8dd5c9c780a6a853291255a69f1f1d",
+   "release_sha256": "47002b54946faab13b087c1244a1d14b225ae2e9d6345fe63b775a76d1232c92",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-pathway-interactions.tar.xz",
+   "frozen_in": [
+    "studies/pathway-interactions-v3/protocol/SELECTION-FREEZE.json"
+   ]
+  },
+  "studies/pathway-interactions-v3/runs/replay/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "450763eb7816c4245eefa712597aac143ac6b22b0e2e2329d66ebfb48ae6d5dd",
+   "release_sha256": "1b1b198d1e7ead36591a15b5fb07cebfe0c45d8cce7deb2050c221d7d40e26ee",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-pathway-interactions.tar.xz"
+  },
+  "studies/pathway-interactions-v3/runs/screen/status.json": {
+   "kind": "redacted",
+   "original_sha256": "0aa652c12b9a698d6f89811c6f29ebeebb2f0afcbefde661707546e965dde3d3",
+   "release_sha256": "5cb7aa967e118ebc5fb72615ec10fb5b632b452e9b00d4eb558ab8815b2d7096",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study3-pathway-interactions.tar.xz",
+   "frozen_in": [
+    "studies/pathway-interactions-v3/protocol/SELECTION-FREEZE.json"
+   ]
+  },
+  "studies/position-routing-v2/REPRODUCIBILITY.md": {
+   "kind": "redacted",
+   "original_sha256": "82e99053105609e5ab5917c9a0ba74b8383c012382f357358e4936061751a613",
+   "release_sha256": "ae2cbe68608d00f3fd1d62e56af4c05fb4da8c9c29258377bdf77c29e9e9fce2",
+   "redactions": {
+    "environment path": 2,
+    "model path": 1,
+    "portfolio folder": 1,
+    "project folder": 2,
+    "machine details": 1
+   }
+  },
+  "studies/position-routing-v2/analysis/STUDY-SUMMARY.json": {
+   "kind": "redacted",
+   "original_sha256": "21108a4481841ac7d70c5eae4f54b27a386d6ebc3963294d4af8856fc5fbc77c",
+   "release_sha256": "d7db41c6875ba9f16ef0dcfe9057359f1a3c339554e720a7f76e87da6ae574b0",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-position-routing.tar.xz"
+  },
+  "studies/position-routing-v2/code/core.py": {
+   "kind": "adapted",
+   "original_sha256": "f1c300f7f69cb65002f9a7f10e5c2b49ff75f60203c3fa3b03de939b0c464654",
+   "release_sha256": "974c3e2e23ad1adc565f91eba2ba94f1704f1b904ea43afe4d87255a2ce246b9",
+   "frozen_in": [
+    "studies/position-routing-v2/protocol/CAUSAL-FREEZE.json",
+    "studies/position-routing-v2/protocol/QUALIFICATION-FREEZE.json"
+   ],
+   "reasons": [
+    "the checkpoint comes from MODELS_DIR (default models/ in the release) and the GPU lock from GPU_LOCK"
+   ]
+  },
+  "studies/position-routing-v2/code/summarize_study.py": {
+   "kind": "redacted",
+   "original_sha256": "82c2461e926626ba656599040fd9fe023bbd6d040ead219f3c70ba3f81dbc15c",
+   "release_sha256": "b4b07fc708d0ae33413b421c400bc222dabd3348144c165c2687e3f07b4fe2c7",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "studies/position-routing-v2/provenance/MODEL-ASSETS.json": {
+   "kind": "redacted",
+   "original_sha256": "886a32034b3a2bb2546caddbbc72bac25adaef079c15a2e98d06916a2f58a5a6",
+   "release_sha256": "7c84ba07c8ea55d0d93096a4b344ab56cae8e117dfefbd89b12b2796e7f3d585",
+   "redactions": {
+    "absolute path": 1,
+    "model path": 1
+   }
+  },
+  "studies/position-routing-v2/provenance/PREVIOUS-STUDY.json": {
+   "kind": "redacted",
+   "original_sha256": "d826e5333b6c4990f6ef5c44012e3610e9802e76012bc8a7afa8fe0b950a6181",
+   "release_sha256": "eeb7793cdcc6e862bfbda74f23e61e880d68af022ea568743a706dc5ea62a998",
+   "redactions": {
+    "absolute path": 1
+   }
+  },
+  "studies/position-routing-v2/runs/confirmation/status.json": {
+   "kind": "redacted",
+   "original_sha256": "39eafd848be7bcc08f42003eab38b5c522a97847e72d517ef816f49e816051b0",
+   "release_sha256": "3c9ab8ce0392a614d38a58132ccdc7c61d0083be750d4c133d3e229c5c3f6825",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-position-routing.tar.xz"
+  },
+  "studies/position-routing-v2/runs/development/status.json": {
+   "kind": "redacted",
+   "original_sha256": "f20c4c978507c887c6a8a3049ef5cfa36f09d350eb913b607167d3e1c9d253e3",
+   "release_sha256": "b61a830d5a5efbae4fcf44c2aec597892cd04f19348cbc36e03d08b28100f32f",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-position-routing.tar.xz"
+  },
+  "studies/position-routing-v2/runs/qualification/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "7c0bdd9a3993133b25c5d940edd2b5b2d9f20573ccee7b0a4d55dfd445ed0cdd",
+   "release_sha256": "c4157a72fadf6e45103fe65ecd9ddda27471680ab36bc3c4e9dde0c0aabcdc6b",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-position-routing.tar.xz",
+   "frozen_in": [
+    "studies/position-routing-v2/protocol/CAUSAL-FREEZE.json"
+   ]
+  },
+  "studies/position-routing-v2/runs/replay/summary.json": {
+   "kind": "redacted",
+   "original_sha256": "a334ea2bde2b0fb526b959c928d77eca9becc97eea2df454d327cc7b5a3dd701",
+   "release_sha256": "b3d6dd80a3e089e86e641e3b5d14b1b6d2fa3c7cc414127d072021ad5313c131",
+   "redactions": {
+    "machine details": 1
+   },
+   "archive": "data/saved-outputs/study2-position-routing.tar.xz"
+  }
+ },
+ "frozen_files_not_shipped": {
+  "studies/pathway-interactions-v3/analysis/synthetic-tests.log": {
+   "original_sha256": "fefd166249373c22bb2d282e0ce97b29629bb483ebf37ff0769f08b9370f8b7d",
+   "reason": "log file; logs are not part of the release"
+  },
+  "studies/position-routing-v2/analysis/synthetic-tests.log": {
+   "original_sha256": "fe008aab760eb03ccac7578e2b84665b1b50b0d7f855b17a0c7a8d039435b658",
+   "reason": "log file; logs are not part of the release"
+  }
+ },
+ "freeze_records": [
+  {
+   "path": "studies/fixed-signal-v1/protocol/ANALYSIS-FREEZE.json",
+   "base": "studies/fixed-signal-v1"
+  },
+  {
+   "path": "studies/fixed-signal-v1/protocol/AUDIT-FREEZE.json",
+   "base": "studies/fixed-signal-v1"
+  },
+  {
+   "path": "studies/fixed-signal-v1/protocol/CONFIRMATION-DESIGN-FREEZE.json",
+   "base": "studies/fixed-signal-v1"
+  },
+  {
+   "path": "studies/fixed-signal-v1/protocol/HELDOUT-FREEZE.json",
+   "base": "studies/fixed-signal-v1"
+  },
+  {
+   "path": "studies/fixed-signal-v1/protocol/QUALIFICATION-FREEZE.json",
+   "base": "studies/fixed-signal-v1"
+  },
+  {
+   "path": "studies/fixed-signal-v1/protocol/RESPONSE-FREEZE.json",
+   "base": "studies/fixed-signal-v1"
+  },
+  {
+   "path": "studies/position-routing-v2/protocol/CAUSAL-FREEZE.json",
+   "base": "studies/position-routing-v2"
+  },
+  {
+   "path": "studies/position-routing-v2/protocol/QUALIFICATION-FREEZE.json",
+   "base": "studies/position-routing-v2"
+  },
+  {
+   "path": "studies/position-routing-v2/protocol/VERIFICATION-FREEZE.json",
+   "base": "studies/position-routing-v2"
+  },
+  {
+   "path": "studies/pathway-interactions-v3/protocol/CONFIRMATION-FREEZE.json",
+   "base": "studies/pathway-interactions-v3"
+  },
+  {
+   "path": "studies/pathway-interactions-v3/protocol/DESIGN-FREEZE.json",
+   "base": "studies/pathway-interactions-v3"
+  },
+  {
+   "path": "studies/pathway-interactions-v3/protocol/SELECTION-FREEZE.json",
+   "base": "studies/pathway-interactions-v3"
+  },
+  {
+   "path": "studies/pathway-interactions-v3/protocol/VERIFICATION-FREEZE.json",
+   "base": "studies/pathway-interactions-v3"
+  }
+ ]
+}

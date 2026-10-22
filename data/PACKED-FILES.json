@@ -1,0 +1,560 @@
+{
+ "archives": {
+  "data/saved-outputs/study1-fixed-signal.tar.xz": {
+   "members": {
+    "studies/fixed-signal-v1/analysis/ANALYSIS-REPLAY.json": {
+     "sha256": "7e5c42caad981897e5a408a7c5d7ae0d380e8648b8d3280eee3068f0b6a324f4",
+     "size": 2398
+    },
+    "studies/fixed-signal-v1/analysis/EVIDENCE-AUDIT.json": {
+     "sha256": "a9e17248e19574999995b7a1e13d4e3eb99cb1a671ec5386293d824941f33e39",
+     "size": 2854
+    },
+    "studies/fixed-signal-v1/analysis/INPUT-AUDIT.json": {
+     "sha256": "34f6c607b60a5682ace6908b96910e613c260f88d336f6abb78edd50ffee9c89",
+     "size": 3448
+    },
+    "studies/fixed-signal-v1/analysis/REPLAY-SENSITIVITY.json": {
+     "sha256": "1ec521fe84ddc93d5a5c15931db2bf52cb3946ef4ce540e06c5216b3555df6c8",
+     "size": 2616
+    },
+    "studies/fixed-signal-v1/analysis/STUDY-SUMMARY.json": {
+     "sha256": "ed0b62866dc4aa991de2c05c22761d9e8a9d636f8829fad5514bfb11a9d2136f",
+     "size": 4647
+    },
+    "studies/fixed-signal-v1/analysis/confirmation/behavior.json": {
+     "sha256": "466543f157aa3c31fa7cea208f6dcd3bc69201a8c0c249198f4d04b516195316",
+     "size": 10959173
+    },
+    "studies/fixed-signal-v1/analysis/confirmation/pairs.json": {
+     "sha256": "e53ee1e35351d7eac8361b0469ff8cf99700e6839af4cbaa9899e74e379e0de2",
+     "size": 1088715
+    },
+    "studies/fixed-signal-v1/analysis/confirmation/summary.json": {
+     "sha256": "8388851bb4c39a116e927cf2f7889f4c5392efd35399251e99ae90c1fd074661",
+     "size": 22651
+    },
+    "studies/fixed-signal-v1/analysis/control-descriptions.json": {
+     "sha256": "465ea4dd031b13840e27ee76a3be42fc9beccc9e296634ccc492a6442de0978c",
+     "size": 80048
+    },
+    "studies/fixed-signal-v1/analysis/development/behavior.json": {
+     "sha256": "4da7228a489b2d3609fdd52cb6e0f4987f53384d99afca4d786d9b6ecbfeb7ca",
+     "size": 1213410
+    },
+    "studies/fixed-signal-v1/analysis/development/model.json": {
+     "sha256": "f3d74c80a20364d9acbebef25d408fe4988fbccf9298e6dfad7f6ec15318c4a9",
+     "size": 1107
+    },
+    "studies/fixed-signal-v1/analysis/development/model.npz": {
+     "sha256": "3234a52bc77a6aea5dc514561a4a8539ea5a75010c36e6afa2c5911356e5d64f",
+     "size": 65190
+    },
+    "studies/fixed-signal-v1/analysis/development/pairs.json": {
+     "sha256": "3c6dceb23e48eef016bb274f357d45b031692a6e59e76fdb111e67876900b855",
+     "size": 120795
+    },
+    "studies/fixed-signal-v1/analysis/development/selection.json": {
+     "sha256": "446b59f6d0f7f0f2bcc9eeacee92ac7bcce80ef26cda69d98749c2969050a17f",
+     "size": 16195
+    },
+    "studies/fixed-signal-v1/analysis/development/summary.json": {
+     "sha256": "6ffb44658956b97b2370841956cff8a446f14612d1e5857b3e32e8b740df4361",
+     "size": 7083
+    },
+    "studies/fixed-signal-v1/analysis/holdout/behavior.json": {
+     "sha256": "fccbbdd68682bfd1056bc61bd1d4390b0dcd595b1a8783ccc9331f4ee596fd7b",
+     "size": 1201516
+    },
+    "studies/fixed-signal-v1/analysis/holdout/pairs.json": {
+     "sha256": "8286f46785c1320b64de86e54c6d94bf36ef25616fe013070e6fdea31a789bb6",
+     "size": 120825
+    },
+    "studies/fixed-signal-v1/analysis/holdout/summary.json": {
+     "sha256": "5460e76278efd9b9c5e5395d269eb437d5f39454a0436bafa758f017d555f3bc",
+     "size": 7099
+    },
+    "studies/fixed-signal-v1/runs/batch-replay/confirmation.json": {
+     "sha256": "b941df023aede758b48931a9eb75a092159c51bbc4fc67955e74bf42a35d80a6",
+     "size": 28469
+    },
+    "studies/fixed-signal-v1/runs/batch-replay/development.json": {
+     "sha256": "3e8117184182f2fb85b1d14848b2f47debf9e0fd1de1a0c5fe2ad538c23ac2d3",
+     "size": 28367
+    },
+    "studies/fixed-signal-v1/runs/batch-replay/holdout.json": {
+     "sha256": "2bbc26149e716d3faf6cd0141fa01902605b26351a80ba71506a96a3fed13fcc",
+     "size": 28095
+    },
+    "studies/fixed-signal-v1/runs/batch-replay/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/batch-replay/summary.json": {
+     "sha256": "b40975d76d39c3274af29e61a92a92f2a34efe00975052fca79c6d72334a697a",
+     "size": 648
+    },
+    "studies/fixed-signal-v1/runs/confirmation/manifest.json": {
+     "sha256": "5dd35147ef420346d074e4d41cdd5d7cb2ca6f242422466a1857d27f2881a7ba",
+     "size": 749
+    },
+    "studies/fixed-signal-v1/runs/confirmation/snapshot/protocol/RESPONSE-ANALYSIS.md": {
+     "sha256": "54d614f5fd068afebb3a19f1e7210f81a61159e309ff0a7ee37a3dbcb1e50379",
+     "size": 5003
+    },
+    "studies/fixed-signal-v1/runs/confirmation/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/confirmation/source-hashes.json": {
+     "sha256": "7de0440912cca0a0ef301df004a288f0d0df1d73fc545988eb8729caf9af52fb",
+     "size": 5675
+    },
+    "studies/fixed-signal-v1/runs/confirmation/sources.json": {
+     "sha256": "a0f3a45c2d21afbebb6edf9eb7b312f55f2f6d4a32eab548434aa319fdda827b",
+     "size": 88371
+    },
+    "studies/fixed-signal-v1/runs/confirmation/status.json": {
+     "sha256": "d35d58b4a1794c80c037fb7b3efaaf15e561dc189a3bc1e0642f936120372d6d",
+     "size": 6457
+    },
+    "studies/fixed-signal-v1/runs/development-resource-abort/manifest.json": {
+     "sha256": "afd57279b7036c49d2292f9c0a92c7dba1be48c7272d66917e3e565271c7c4bb",
+     "size": 736
+    },
+    "studies/fixed-signal-v1/runs/development-resource-abort/snapshot/protocol/RESPONSE-ANALYSIS.md": {
+     "sha256": "54d614f5fd068afebb3a19f1e7210f81a61159e309ff0a7ee37a3dbcb1e50379",
+     "size": 5003
+    },
+    "studies/fixed-signal-v1/runs/development-resource-abort/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/development-resource-abort/status.json": {
+     "sha256": "f599cda7221506b49a3252ea954d4d70753763ce3765832a294e56cad969dbce",
+     "size": 242
+    },
+    "studies/fixed-signal-v1/runs/development/manifest.json": {
+     "sha256": "ff6cbe443f742f72eb8f87242ad11757cb49dec12dd375bd65265c88ae49d94e",
+     "size": 736
+    },
+    "studies/fixed-signal-v1/runs/development/recipients.json": {
+     "sha256": "a65fc0a6b42730e2aa76530e2b40d3dedc653c4d7dc9eaded21926fc6ad711bd",
+     "size": 225219
+    },
+    "studies/fixed-signal-v1/runs/development/snapshot/protocol/RESPONSE-ANALYSIS.md": {
+     "sha256": "54d614f5fd068afebb3a19f1e7210f81a61159e309ff0a7ee37a3dbcb1e50379",
+     "size": 5003
+    },
+    "studies/fixed-signal-v1/runs/development/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/development/source-hashes.json": {
+     "sha256": "759c65ca78c16f75255674c5812d5631aeac45f5717bf1d5b086966efdb81b40",
+     "size": 1875
+    },
+    "studies/fixed-signal-v1/runs/development/sources.json": {
+     "sha256": "d874f2ff17bc9b9d555c3346e9a32319518d114e83fa166a0d8740c5eef824b1",
+     "size": 29377
+    },
+    "studies/fixed-signal-v1/runs/development/status.json": {
+     "sha256": "c9eb35ef7bb7353352500446a8531645dc7f062cbf649bd77ee02d9c0a1ff64d",
+     "size": 2589
+    },
+    "studies/fixed-signal-v1/runs/holdout/manifest.json": {
+     "sha256": "95ca49fdebfbd049e1123a0c6aa0e37460fce13d93fb9aca9b7c7fbf3b38924a",
+     "size": 732
+    },
+    "studies/fixed-signal-v1/runs/holdout/recipients.json": {
+     "sha256": "527edcf248123582b7480e59ace6c23d9e35d2cda53fef5fe44944a6d8fcd0c0",
+     "size": 223731
+    },
+    "studies/fixed-signal-v1/runs/holdout/snapshot/protocol/RESPONSE-ANALYSIS.md": {
+     "sha256": "54d614f5fd068afebb3a19f1e7210f81a61159e309ff0a7ee37a3dbcb1e50379",
+     "size": 5003
+    },
+    "studies/fixed-signal-v1/runs/holdout/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/holdout/source-hashes.json": {
+     "sha256": "d13f80cf43e1f5bee12033ad208f11a625a8e54678eb5f43b2af2b9aee628a86",
+     "size": 1811
+    },
+    "studies/fixed-signal-v1/runs/holdout/sources.json": {
+     "sha256": "c8a2df23ac6aa25444821d03f467cb95195e0172e21f9ef47a068925822c9ec2",
+     "size": 29249
+    },
+    "studies/fixed-signal-v1/runs/holdout/status.json": {
+     "sha256": "f02befc7903fa035a0b4e508a167990df6731657e5f161d611d5144aa5c40de8",
+     "size": 2526
+    },
+    "studies/fixed-signal-v1/runs/model-replay/confirmation/summary.json": {
+     "sha256": "502b2ec48212a199fb6183a074574525f1c7bc8e3d375aa1730486f692a460ad",
+     "size": 9660
+    },
+    "studies/fixed-signal-v1/runs/model-replay/development/summary.json": {
+     "sha256": "0a6d8d5fa433ae04d45bfe29f0fca8ea287c032e37d986ff3eac5510bf91380e",
+     "size": 9567
+    },
+    "studies/fixed-signal-v1/runs/model-replay/holdout/summary.json": {
+     "sha256": "2a4f50565510081971712ff0cabab232c2c7f48a2172c18c8eb8be6e7c7719ac",
+     "size": 9463
+    },
+    "studies/fixed-signal-v1/runs/model-replay/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/model-replay/summary.json": {
+     "sha256": "ddfb0c99ea0f604ebb5da32fdae0cc7a1114050c308acc299d644ab4fdf513f4",
+     "size": 33732
+    },
+    "studies/fixed-signal-v1/runs/qualification/manifest.json": {
+     "sha256": "9fd88bf9a3094a2f44fcd74ba143da7e954511ee336e697de95ba02bb78ba686",
+     "size": 687
+    },
+    "studies/fixed-signal-v1/runs/qualification/recipients.json": {
+     "sha256": "a65fc0a6b42730e2aa76530e2b40d3dedc653c4d7dc9eaded21926fc6ad711bd",
+     "size": 225219
+    },
+    "studies/fixed-signal-v1/runs/qualification/snapshot/protocol/QUALIFICATION.md": {
+     "sha256": "8a1f9fcc6219b9ebfa98f5ecac91b379f150fb533dc51b97aee6939de830731f",
+     "size": 3321
+    },
+    "studies/fixed-signal-v1/runs/qualification/snapshot/protocol/config.json": {
+     "sha256": "b950abafaf3c935765dff2b78836967c8e8b706263e627ae8b20c2488651c8a6",
+     "size": 762
+    },
+    "studies/fixed-signal-v1/runs/qualification/sources.json": {
+     "sha256": "d874f2ff17bc9b9d555c3346e9a32319518d114e83fa166a0d8740c5eef824b1",
+     "size": 29377
+    },
+    "studies/fixed-signal-v1/runs/qualification/summary.json": {
+     "sha256": "4e09b4bed2d935f7eeb6c72c527f5bad8e9395566e0c811286fc3d85fdf936e6",
+     "size": 4623
+    }
+   }
+  },
+  "data/saved-outputs/study2-position-routing.tar.xz": {
+   "members": {
+    "studies/position-routing-v2/analysis/ANALYSIS-REPLAY.json": {
+     "sha256": "28838d7ed69f6ac60f5944b968f89cb3b59fd0ff96d56b7574d9aef93c0ae4d0",
+     "size": 529
+    },
+    "studies/position-routing-v2/analysis/EVIDENCE-AUDIT.json": {
+     "sha256": "447998d66ed779841205af9fa95b569df31d857f037c0ad85ba2f52c70c30333",
+     "size": 1261
+    },
+    "studies/position-routing-v2/analysis/INPUT-AUDIT.json": {
+     "sha256": "f306b8eabe781f7c0f60f564b012b72645505c28ffe051cbd86e126344c487e4",
+     "size": 464
+    },
+    "studies/position-routing-v2/analysis/STUDY-SUMMARY.json": {
+     "sha256": "d7db41c6875ba9f16ef0dcfe9057359f1a3c339554e720a7f76e87da6ae574b0",
+     "size": 5660
+    },
+    "studies/position-routing-v2/analysis/confirmation/behavior.json": {
+     "sha256": "da67254d00ba1686b761dc6f160e9ae608daca1522d2d062efe5519a1c5a56d0",
+     "size": 11731658
+    },
+    "studies/position-routing-v2/analysis/confirmation/clean-behavior.json": {
+     "sha256": "735376edd0206554c71fe8407eb9dc5380a5da675c77fb0ebebc58c20339b864",
+     "size": 112816
+    },
+    "studies/position-routing-v2/analysis/confirmation/paired-scores.npz": {
+     "sha256": "3e1c6e27de895587edd9af1307e6ed91c457303b1dd1091bc63da3d192ef093e",
+     "size": 217505
+    },
+    "studies/position-routing-v2/analysis/confirmation/summary.json": {
+     "sha256": "e5384b3a05fcffef52b333d30f316245aa6967d1098159da5b1d84dedfd75a82",
+     "size": 35686
+    },
+    "studies/position-routing-v2/analysis/development/behavior.json": {
+     "sha256": "ea4af54ff298a15bb850a4792ecd5ea5c03bb06ebfa699a33c4313d341780d58",
+     "size": 2926638
+    },
+    "studies/position-routing-v2/analysis/development/clean-behavior.json": {
+     "sha256": "774993d1d337c9bae97c81531a7c4b243c0ac3c30ec546bc8201e4c3f5c20122",
+     "size": 28089
+    },
+    "studies/position-routing-v2/analysis/development/paired-scores.npz": {
+     "sha256": "47ad0d9468ad96fbac897131dd761e71b81203ac7af8040e6aea846af9c0410a",
+     "size": 61201
+    },
+    "studies/position-routing-v2/analysis/development/summary.json": {
+     "sha256": "870062f27acbf850975c75b5aa9548cf84f80bdabdf26272601f92ca58bc1ba6",
+     "size": 30137
+    },
+    "studies/position-routing-v2/runs/confirmation/manifest.json": {
+     "sha256": "874245e4d7acfd4c79cd7b21b96347d6b28b34fc8d03ee0907fd1e2ed1993117",
+     "size": 928
+    },
+    "studies/position-routing-v2/runs/confirmation/signal-hashes.json": {
+     "sha256": "bb74949c84bb31f5c1fcab654e73239871b65f2395f328e571118ee534e7f83a",
+     "size": 13731
+    },
+    "studies/position-routing-v2/runs/confirmation/snapshot/protocol/CAUSAL-PLAN.md": {
+     "sha256": "468c0d6b22e93ab16dcfef44a496bad5f6e3c9495da8ad445b134eb4820fcdeb",
+     "size": 8933
+    },
+    "studies/position-routing-v2/runs/confirmation/snapshot/protocol/config.json": {
+     "sha256": "e2fed869f130151c9f4a59bf2fbda3df02ca480be31bd01111b8982390a3b972",
+     "size": 1128
+    },
+    "studies/position-routing-v2/runs/confirmation/sources.json": {
+     "sha256": "dd96c27e25589a9d11eff2691abc117f7cc9fae978203823e7a1a781ac9fb62b",
+     "size": 110093
+    },
+    "studies/position-routing-v2/runs/confirmation/status.json": {
+     "sha256": "3c9ab8ce0392a614d38a58132ccdc7c61d0083be750d4c133d3e229c5c3f6825",
+     "size": 749
+    },
+    "studies/position-routing-v2/runs/development/manifest.json": {
+     "sha256": "ceb2b6a7e6604772e753096f5ee5a1f08e92d6ae7bf046f7623e1513b33d7430",
+     "size": 926
+    },
+    "studies/position-routing-v2/runs/development/recipients.json": {
+     "sha256": "7a79a4ed14015c73f77f10945a3d0f0b4f50c8108a51684756832b34d1baa3ed",
+     "size": 252483
+    },
+    "studies/position-routing-v2/runs/development/signal-hashes.json": {
+     "sha256": "085eb2d9aedac786828ee08917aa5f8ef95dbeb6e02419a625cd174ecfc5455f",
+     "size": 6835
+    },
+    "studies/position-routing-v2/runs/development/snapshot/protocol/CAUSAL-PLAN.md": {
+     "sha256": "468c0d6b22e93ab16dcfef44a496bad5f6e3c9495da8ad445b134eb4820fcdeb",
+     "size": 8933
+    },
+    "studies/position-routing-v2/runs/development/snapshot/protocol/config.json": {
+     "sha256": "e2fed869f130151c9f4a59bf2fbda3df02ca480be31bd01111b8982390a3b972",
+     "size": 1128
+    },
+    "studies/position-routing-v2/runs/development/sources.json": {
+     "sha256": "f924c5dc0c39f9b89c61503ceef0e62341c2d2f2478bb6d092a750861787b62a",
+     "size": 54751
+    },
+    "studies/position-routing-v2/runs/development/status.json": {
+     "sha256": "b61a830d5a5efbae4fcf44c2aec597892cd04f19348cbc36e03d08b28100f32f",
+     "size": 745
+    },
+    "studies/position-routing-v2/runs/qualification-resource-abort/status.json": {
+     "sha256": "234db3da70f7518ba6b3b0fa414c965c5d522f2e80515b5372569c75c1e5f0cd",
+     "size": 182
+    },
+    "studies/position-routing-v2/runs/qualification/sources.json": {
+     "sha256": "f924c5dc0c39f9b89c61503ceef0e62341c2d2f2478bb6d092a750861787b62a",
+     "size": 54751
+    },
+    "studies/position-routing-v2/runs/qualification/summary.json": {
+     "sha256": "c4157a72fadf6e45103fe65ecd9ddda27471680ab36bc3c4e9dde0c0aabcdc6b",
+     "size": 6446
+    },
+    "studies/position-routing-v2/runs/replay/summary.json": {
+     "sha256": "b3d6dd80a3e089e86e641e3b5d14b1b6d2fa3c7cc414127d072021ad5313c131",
+     "size": 195118
+    }
+   }
+  },
+  "data/saved-outputs/study3-pathway-interactions.tar.xz": {
+   "members": {
+    "studies/pathway-interactions-v3/analysis/ANALYSIS-REPLAY.json": {
+     "sha256": "49da923106f04e21788f949bb797c1b2a5d2ace9fe1ef7a3b3ab7a1cf71e57b9",
+     "size": 280
+    },
+    "studies/pathway-interactions-v3/analysis/EVIDENCE-AUDIT.json": {
+     "sha256": "00c98a9af73a415a0bd5666bdbfc6c24f05d78804e0e20786a3f78d93b2d58fc",
+     "size": 1421
+    },
+    "studies/pathway-interactions-v3/analysis/INPUT-AUDIT.json": {
+     "sha256": "b14c358016020e9cd7cd11ac4d3fef748fcb24b020f455e5bbc777f9b1b3675c",
+     "size": 499
+    },
+    "studies/pathway-interactions-v3/analysis/PREDICTIONS.json": {
+     "sha256": "66fd8e91e25ef3cdc40fdc834947e839d5e40123dd832264c3fc264bd82e087a",
+     "size": 4866
+    },
+    "studies/pathway-interactions-v3/analysis/PREVIOUS-ADAPTER-BRIDGE.json": {
+     "sha256": "3111968dd2e962e2ae448d337f75a5dc37292825d9f83a9ba97d31f9a0f0eccc",
+     "size": 145737
+    },
+    "studies/pathway-interactions-v3/analysis/SCREEN-RANKING.json": {
+     "sha256": "1c3817bd31c2b0b677c27aa6d28b2eaa66b90fadff98e772a9b6d591c207e4bc",
+     "size": 104158
+    },
+    "studies/pathway-interactions-v3/analysis/SELECTION.json": {
+     "sha256": "1ccfa53bb1bfe0410bf545de609c2501faf48da86323a278776ee64e04bbdc78",
+     "size": 1970
+    },
+    "studies/pathway-interactions-v3/analysis/SERIALIZATION-EQUALITY.json": {
+     "sha256": "346245d5068cddf1d6e26dc680e14f0fe953b18b911fe5c779c7dd7faa7c4159",
+     "size": 125
+    },
+    "studies/pathway-interactions-v3/analysis/STUDY-SUMMARY.json": {
+     "sha256": "50db7de79095e7ef117c29fb19c0015346f276e08b3bf0add0f49f5e257b48fd",
+     "size": 12539
+    },
+    "studies/pathway-interactions-v3/analysis/confirmation/paired-scores.npz": {
+     "sha256": "6bac2badfccf8eb640f71499f87e8779e66f3c4fef9d9c21e06da100d0675012",
+     "size": 374527
+    },
+    "studies/pathway-interactions-v3/analysis/confirmation/summary.json": {
+     "sha256": "eb0d07ebefec750cccedece4380a59c09319e4b171ef46f98ed6e40a1f43d422",
+     "size": 197247
+    },
+    "studies/pathway-interactions-v3/analysis/development-serialization-abort/paired-scores.npz": {
+     "sha256": "4d7e05ecd2c0cfeff74e79333497a55380d6096622b8d9cb620640256e107a18",
+     "size": 122869
+    },
+    "studies/pathway-interactions-v3/analysis/development/paired-scores.npz": {
+     "sha256": "4d7e05ecd2c0cfeff74e79333497a55380d6096622b8d9cb620640256e107a18",
+     "size": 122869
+    },
+    "studies/pathway-interactions-v3/analysis/development/summary.json": {
+     "sha256": "bdc5964344a7ab008daf1a9a5e669f2a6ec4021786d5ac4b13cde44ad18495b6",
+     "size": 160094
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/conditions.json": {
+     "sha256": "93f51bf60d52b7a30892e99c3187cffd78ff1b2cc8fc4ed914ba21b8bac7709b",
+     "size": 116387
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/manifest.json": {
+     "sha256": "f29a0f85e197cfe7538aa8105410da63ab93c1dae091fdc2f4bebc417f879262",
+     "size": 1005
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/signal-hashes.json": {
+     "sha256": "cca6478294cc17ad0b6de9a798f5d390c6466fa959abd15643a5c83138d89356",
+     "size": 7075
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/snapshot/analysis/SELECTION.json": {
+     "sha256": "1ccfa53bb1bfe0410bf545de609c2501faf48da86323a278776ee64e04bbdc78",
+     "size": 1970
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/snapshot/protocol/PLAN.md": {
+     "sha256": "5fcc86f994a377ecb640312de1509823aafa5f96be56336009b46d701f6958c4",
+     "size": 10887
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/snapshot/protocol/config.json": {
+     "sha256": "48988b4b877368958bf2b0fd0e32a4ec6b62b9d791b463025abb3d3841e55d47",
+     "size": 1193
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/sources.json": {
+     "sha256": "26b889a62580fa93d8aaa5efe3802c69502a8759f45b1bf3adcae2690511ca22",
+     "size": 70389
+    },
+    "studies/pathway-interactions-v3/runs/confirmation/status.json": {
+     "sha256": "71768c462f4fff6df559cd38a62f6c478a55954af279c647b5ec02389a5640a3",
+     "size": 1414
+    },
+    "studies/pathway-interactions-v3/runs/development/conditions.json": {
+     "sha256": "93f51bf60d52b7a30892e99c3187cffd78ff1b2cc8fc4ed914ba21b8bac7709b",
+     "size": 116387
+    },
+    "studies/pathway-interactions-v3/runs/development/manifest.json": {
+     "sha256": "080509dcb2bf557ac305b1d36aa9376b1e55e1ddcae96b6de48a080fa60bf618",
+     "size": 1003
+    },
+    "studies/pathway-interactions-v3/runs/development/signal-hashes.json": {
+     "sha256": "5952d2926875c4b422f616134e58469693665713423c0be5cf6700824acc0d4f",
+     "size": 3507
+    },
+    "studies/pathway-interactions-v3/runs/development/snapshot/analysis/SELECTION.json": {
+     "sha256": "1ccfa53bb1bfe0410bf545de609c2501faf48da86323a278776ee64e04bbdc78",
+     "size": 1970
+    },
+    "studies/pathway-interactions-v3/runs/development/snapshot/protocol/PLAN.md": {
+     "sha256": "5fcc86f994a377ecb640312de1509823aafa5f96be56336009b46d701f6958c4",
+     "size": 10887
+    },
+    "studies/pathway-interactions-v3/runs/development/snapshot/protocol/config.json": {
+     "sha256": "48988b4b877368958bf2b0fd0e32a4ec6b62b9d791b463025abb3d3841e55d47",
+     "size": 1193
+    },
+    "studies/pathway-interactions-v3/runs/development/sources.json": {
+     "sha256": "27c936812be51e746e244242cbcbe60d120d39da46903089beabd64e50559b26",
+     "size": 34841
+    },
+    "studies/pathway-interactions-v3/runs/development/status.json": {
+     "sha256": "fb783fdba661e320a19c097397cb16f698f98502c098122fc6313342ae2eeb44",
+     "size": 1395
+    },
+    "studies/pathway-interactions-v3/runs/qualification/sources.json": {
+     "sha256": "27c936812be51e746e244242cbcbe60d120d39da46903089beabd64e50559b26",
+     "size": 34841
+    },
+    "studies/pathway-interactions-v3/runs/qualification/summary.json": {
+     "sha256": "47002b54946faab13b087c1244a1d14b225ae2e9d6345fe63b775a76d1232c92",
+     "size": 5340
+    },
+    "studies/pathway-interactions-v3/runs/replay/summary.json": {
+     "sha256": "1b1b198d1e7ead36591a15b5fb07cebfe0c45d8cce7deb2050c221d7d40e26ee",
+     "size": 177745
+    },
+    "studies/pathway-interactions-v3/runs/screen/conditions.json": {
+     "sha256": "b552c88bf12ed209679845bf8f9ef9ee09ebdd86853793414312f1b0b6ddabc0",
+     "size": 246923
+    },
+    "studies/pathway-interactions-v3/runs/screen/manifest.json": {
+     "sha256": "d4d6844fbc60493f113ddaec88d1b33c4d0a54475dafcfe7c3482d59507e1153",
+     "size": 898
+    },
+    "studies/pathway-interactions-v3/runs/screen/recipients.json": {
+     "sha256": "5ce187b6f366f626cb71bc33aa29ee8f4a5ddbfbddaff1ebcd9814a4a5086354",
+     "size": 40575
+    },
+    "studies/pathway-interactions-v3/runs/screen/signal-hashes.json": {
+     "sha256": "5952d2926875c4b422f616134e58469693665713423c0be5cf6700824acc0d4f",
+     "size": 3507
+    },
+    "studies/pathway-interactions-v3/runs/screen/snapshot/protocol/PLAN.md": {
+     "sha256": "5fcc86f994a377ecb640312de1509823aafa5f96be56336009b46d701f6958c4",
+     "size": 10887
+    },
+    "studies/pathway-interactions-v3/runs/screen/snapshot/protocol/config.json": {
+     "sha256": "48988b4b877368958bf2b0fd0e32a4ec6b62b9d791b463025abb3d3841e55d47",
+     "size": 1193
+    },
+    "studies/pathway-interactions-v3/runs/screen/sources.json": {
+     "sha256": "27c936812be51e746e244242cbcbe60d120d39da46903089beabd64e50559b26",
+     "size": 34841
+    },
+    "studies/pathway-interactions-v3/runs/screen/status.json": {
+     "sha256": "5cb7aa967e118ebc5fb72615ec10fb5b632b452e9b00d4eb558ab8815b2d7096",
+     "size": 850
+    }
+   }
+  }
+ },
+ "xz": {
+  "provenance/preparation-2026-10-07/03-Data/prepared/interventions.jsonl.xz": {
+   "sha256": "dcf08cecd028e4bae9d5d32931e9582b366449c74f6015ea5be2a4aeaae43048",
+   "size": 1415664,
+   "unpacked": "provenance/preparation-2026-10-07/03-Data/prepared/interventions.jsonl"
+  },
+  "studies/fixed-signal-v1/data/confirmation-qualified.json.xz": {
+   "sha256": "89541ac0a1f20e5d856f24f24e83f0a9eac00508659ea18d8bd579204dbdb564",
+   "size": 10233251,
+   "unpacked": "studies/fixed-signal-v1/data/confirmation-qualified.json"
+  },
+  "studies/fixed-signal-v1/data/pilot-qualified.json.xz": {
+   "sha256": "5afc139450abce6fbe387f69104b50f00e05e1b419ca5ef263fa3a6417a8c040",
+   "size": 2240546,
+   "unpacked": "studies/fixed-signal-v1/data/pilot-qualified.json"
+  },
+  "studies/fixed-signal-v1/provenance/pre-execution/03-Data/prepared/interventions.jsonl.xz": {
+   "sha256": "dcf08cecd028e4bae9d5d32931e9582b366449c74f6015ea5be2a4aeaae43048",
+   "size": 1415664,
+   "unpacked": "studies/fixed-signal-v1/provenance/pre-execution/03-Data/prepared/interventions.jsonl"
+  },
+  "studies/pathway-interactions-v3/data/inputs.json.xz": {
+   "sha256": "12aa4078ea49de58158855187809f91d512ed2691c855834e8a1fe5a703361c2",
+   "size": 1944994,
+   "unpacked": "studies/pathway-interactions-v3/data/inputs.json"
+  },
+  "studies/position-routing-v2/data/inputs.json.xz": {
+   "sha256": "addade906670a44ab4943da3c5abe21e92da25bca6fbd17668ef646a0c3872d3",
+   "size": 1629324,
+   "unpacked": "studies/position-routing-v2/data/inputs.json"
+  }
+ }
+}

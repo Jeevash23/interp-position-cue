@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "project_id": "AI-08",
+  "status": "draft_preparation_only",
+  "model_execution_enabled": false,
+  "model": "gpt2-medium",
+  "seed": 2026100708,
+  "templates": {
+    "F10": "In the {place}, {a} and {b} talked. {s} handed {article} {obj} to",
+    "F11": "While {a} and {b} stood in the {place}, {s} passed {article} {obj} to"
+  },
+  "splits": {
+    "development": {
+      "name_triples": [["Alice", "Bob", "Carol"], ["David", "Emma", "Frank"], ["Grace", "Henry", "Isaac"], ["Julia", "Kevin", "Laura"]],
+      "contexts": [["garden", "card"], ["office", "folder"], ["station", "book"], ["museum", "ticket"]]
+    },
+    "holdout": {
+      "name_triples": [["Maya", "Noah", "Olivia"], ["Peter", "Quinn", "Rose"], ["Sara", "Thomas", "Uma"], ["Victor", "Wendy", "Xavier"]],
+      "contexts": [["library", "note"], ["market", "basket"], ["school", "pencil"], ["hotel", "letter"]]
+    }
+  },
+  "source_context": ["atrium", "parcel"],
+  "source_variants": [{"id": "canonical", "family": "F10", "order": 0}, {"id": "order_control", "family": "F10", "order": 1}],
+  "strengths": [-0.5, 0.5, 1.0],
+  "random_replicates": 4,
+  "candidate_response_blocks": [13, 18, 23],
+  "tokenization_qualified": false,
+  "competence_qualified": false,
+  "estimated_runtime_seconds": null,
+  "scientific_protocol_frozen": false
+}

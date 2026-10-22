@@ -1,0 +1,107 @@
+{
+ "description": "Post hoc: do the two added heads (15.4, 12.3) feed the five known queries? (Study 3 saved traces; CPU only.)",
+ "bank": "confirmation",
+ "traced_recipients": 16,
+ "strata": {
+  "third_name@0.5": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.4146622474166758,
+   "queries_surviving_when_M_held": 0.9171517622503579,
+   "queries_surviving_when_A_and_M_held": 0.35523143698057624,
+   "queries_recreated_by_A_transplant": 0.5923723752362331,
+   "queries_recreated_by_M_transplant": 0.08525645452694222,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.28719151363831613,
+    "15.14": 0.4225762590410473,
+    "16.15": 0.4008578960413829,
+    "17.4": 0.45246043004943265,
+    "19.15": 0.4619726251952014
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 0.9934192943599396,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  },
+  "third_name@1": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.48811013722954294,
+   "queries_surviving_when_M_held": 0.9343864358202424,
+   "queries_surviving_when_A_and_M_held": 0.4251198161166761,
+   "queries_recreated_by_A_transplant": 0.5723821799831726,
+   "queries_recreated_by_M_transplant": 0.07207233129769758,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.35994455651557467,
+    "15.14": 0.5060648617088122,
+    "16.15": 0.4692494286652141,
+    "17.4": 0.5107758516736424,
+    "19.15": 0.5456191733143462
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 0.9945913043350224,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  },
+  "repeat_io@0.5": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.3911688235009446,
+   "queries_surviving_when_M_held": 0.9797795283239065,
+   "queries_surviving_when_A_and_M_held": 0.39226641547369695,
+   "queries_recreated_by_A_transplant": 0.5882923489170535,
+   "queries_recreated_by_M_transplant": 0.013507296334301262,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.3408633423312147,
+    "15.14": 0.3977224708822818,
+    "16.15": 0.3733193568580542,
+    "17.4": 0.41743157437267836,
+    "19.15": 0.41465198644114193
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 0.9807838570713496,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  },
+  "repeat_io@1": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.5119978515466919,
+   "queries_surviving_when_M_held": 0.9745868076105532,
+   "queries_surviving_when_A_and_M_held": 0.4937089004893169,
+   "queries_recreated_by_A_transplant": 0.6872257878160997,
+   "queries_recreated_by_M_transplant": 0.02150871853183974,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.4480431120723599,
+    "15.14": 0.5217568254317495,
+    "16.15": 0.4852631088011807,
+    "17.4": 0.5419343506377257,
+    "19.15": 0.5572175827962845
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 1.01038231357243,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  }
+ },
+ "inputs": {
+  "studies/pathway-interactions-v3/runs/confirmation/row-0000.npz": "7f74604aa5c9f6fd2427b473b61c89f4816b0c5969db7203383f320f383425e8",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0002.npz": "e22d1ff775b1a20882507331f652a962d94c090f2b714f4bcfa2721e750677fb",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0028.npz": "9195d8ec84fd4d1dc21a5c9d43d75f7d80397d971868c7260f092e6df8aaa37c",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0030.npz": "a1987ac03af497b7b49e1f498bf0ae035ac8e5c70db20f2deeb2f856f0288cd2",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0032.npz": "79915df3263e954e7d8520b499464b56eb42dad804b499d424a405f4bcab3eac",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0034.npz": "43edf25bf7842715943047363de024e4ec8c3e722e371ebf07e8d6177e818a42",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0060.npz": "64e817ae1bb2a0a2d4376aa177e25d2a39c272252fad890a61880da850f99654",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0062.npz": "16bf9be4a69eeabee637ba524c54fa45ada720ed190b06958f5315732bd5436c",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0896.npz": "0663b77ec5d206ccae043d8e2c5f43f2c5648140ac4bb3712efe141838c6b267",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0898.npz": "3c96c73f2b16328b479b7c2925d60392e3fd60eec052d7659a98560d0c605619",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0924.npz": "e0cb6c9f2b27dec0d6be7a88f3416299c36096ddcbe2b71761c867be6e55940f",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0926.npz": "e51cc6518a6c790909f1f73c121903be001ceb3b7bd882a6552ed00dd43f8aff",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0928.npz": "9fb20c9d424b04dc76fdb0a77bbf8122a015a086a9e01fc3c5c506d73d16d029",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0930.npz": "3ecaa8ba0dee56d29146486cb03274182edbd8175199788f6e42bea724f7add7",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0956.npz": "877769385267c5f4c5c027b6b20c139e7d91bfaf782d46db274f887e30373a3a",
+  "studies/pathway-interactions-v3/runs/confirmation/row-0958.npz": "52ad8ea5cdd6064327b5d41c72a5a4c4a741d4e6e1f190ac371076a766b21168"
+ },
+ "checks_passed": true,
+ "created_utc": "2026-10-09T12:14:20+00:00"
+}

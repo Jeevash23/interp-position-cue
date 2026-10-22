@@ -1,0 +1,107 @@
+{
+ "description": "Post hoc: do the two added heads (15.4, 12.3) feed the five known queries? (Study 3 saved traces; CPU only.)",
+ "bank": "development",
+ "traced_recipients": 16,
+ "strata": {
+  "third_name@0.5": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.4647728392903229,
+   "queries_surviving_when_M_held": 0.894293349686731,
+   "queries_surviving_when_A_and_M_held": 0.391276079859225,
+   "queries_recreated_by_A_transplant": 0.5545730727621503,
+   "queries_recreated_by_M_transplant": 0.10585171294802138,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.4091452037109886,
+    "15.14": 0.501803597637818,
+    "16.15": 0.4508486057728866,
+    "17.4": 0.4588125751804171,
+    "19.15": 0.4411484839886759
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 0.9900081368833705,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  },
+  "third_name@1": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.6037961575657481,
+   "queries_surviving_when_M_held": 0.929737264871523,
+   "queries_surviving_when_A_and_M_held": 0.5364238676411783,
+   "queries_recreated_by_A_transplant": 0.4986753313088004,
+   "queries_recreated_by_M_transplant": 0.07481560865135198,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.5549974094720783,
+    "15.14": 0.649282237703499,
+    "16.15": 0.5691695375274547,
+    "17.4": 0.6014321227939691,
+    "19.15": 0.5932103965066098
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 1.0020598163214243,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  },
+  "repeat_io@0.5": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.4190423323141778,
+   "queries_surviving_when_M_held": 1.009897567944682,
+   "queries_surviving_when_A_and_M_held": 0.4304870555519958,
+   "queries_recreated_by_A_transplant": 0.546263003468627,
+   "queries_recreated_by_M_transplant": -0.016388257883033764,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.3496239643101218,
+    "15.14": 0.4327561615613837,
+    "16.15": 0.4025800672322718,
+    "17.4": 0.4467184255608405,
+    "19.15": 0.4278486897537642
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 0.9679537628287911,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  },
+  "repeat_io@1": {
+   "recipients": 8,
+   "queries_surviving_when_A_held": 0.5056131571377199,
+   "queries_surviving_when_M_held": 0.9784192335935122,
+   "queries_surviving_when_A_and_M_held": 0.49633078249878043,
+   "queries_recreated_by_A_transplant": 0.6264502246411074,
+   "queries_recreated_by_M_transplant": 0.016181249267239045,
+   "queries_surviving_when_A_held_by_head": {
+    "14.14": 0.4483501071632923,
+    "15.14": 0.5295584913677983,
+    "16.15": 0.4789429667090109,
+    "17.4": 0.5109492009952425,
+    "19.15": 0.542626932877746
+   },
+   "added_head_output_surviving_when_Q_held_by_head": {
+    "15.4": 1.0002984536137283,
+    "12.3": 1.0
+   },
+   "check_12_3_unchanged_when_Q_held": true
+  }
+ },
+ "inputs": {
+  "studies/pathway-interactions-v3/runs/development/row-0000.npz": "b9fb5676cd10fb04bd766966015e5a4faf5b306191d30e5956194b2dcd87ab89",
+  "studies/pathway-interactions-v3/runs/development/row-0002.npz": "c5b01a024db5c42c477c2737a21d44ff12638de78b43192d6cd1efc1e3a871ed",
+  "studies/pathway-interactions-v3/runs/development/row-0012.npz": "eb130094d1f09452b758ffa52ad2eb86509b62b67aa1c538bfcf85b42a14789c",
+  "studies/pathway-interactions-v3/runs/development/row-0014.npz": "3a6d93cd914cd06e0c3b053b67d4c973a039f79147ee64c59a7e97e2cfb609c0",
+  "studies/pathway-interactions-v3/runs/development/row-0016.npz": "edb34d3e30009a3322bc46d3d92450dbdd299022a94379ece740a5395814ea0d",
+  "studies/pathway-interactions-v3/runs/development/row-0018.npz": "517cc986289a7b28c59a9e1eb1bf2098312557a6d98cc3d0d7509d5e105cff7b",
+  "studies/pathway-interactions-v3/runs/development/row-0028.npz": "9048272e2bbfbc5e56c162c96f4672f64748fead62156a03c594d7123b02e6c7",
+  "studies/pathway-interactions-v3/runs/development/row-0030.npz": "d885e853b3d2331cd62f6fad96a7dc85117ec0956634c501dfcbef025e5369bc",
+  "studies/pathway-interactions-v3/runs/development/row-0192.npz": "60d2a0c388957a0d27cf276108d44645a4fdecbe715ccefbb28d721f30644f1f",
+  "studies/pathway-interactions-v3/runs/development/row-0194.npz": "df24c6c181413cd4bbafa5f456871822461734e4d4977ecccf19aab492b77d0d",
+  "studies/pathway-interactions-v3/runs/development/row-0204.npz": "e47533f89cbc7e1f2d89c485b01aadae42bd99055fd315df56abcdb77a2f3cc1",
+  "studies/pathway-interactions-v3/runs/development/row-0206.npz": "a4adf0eb2f5dee7ab67ffc567df7c95b571d99364b833f7f886a20dc8a072919",
+  "studies/pathway-interactions-v3/runs/development/row-0208.npz": "6e74567a2cee340f184a276c8f7553ebb451b1f40bf45c838da1afe81985a9f8",
+  "studies/pathway-interactions-v3/runs/development/row-0210.npz": "b9c5805893349a097949ab8033d21c5a4add4669b5f68909ca443be84829ebdd",
+  "studies/pathway-interactions-v3/runs/development/row-0220.npz": "2afebc763d4cbd11b967ad953fbb8dad1b88e8627f6fa87214515bf40e68a4fc",
+  "studies/pathway-interactions-v3/runs/development/row-0222.npz": "27da4d678ca75e497e1a9ea34f57ac0f96504efb7c055c2f2cb97da7433ceb83"
+ },
+ "checks_passed": true,
+ "created_utc": "2026-10-09T12:14:21+00:00"
+}

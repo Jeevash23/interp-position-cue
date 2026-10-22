@@ -1,0 +1,23 @@
+{
+  "all_declared_condition_records_completed": 18304,
+  "all_main_model_processes_finished": true,
+  "analysis_replay": "passed",
+  "automations_created": false,
+  "causal_localization": "Not triggered: confirmation absolute improvement below frozen threshold",
+  "created_utc": "2026-10-08T05:03:43.469255+00:00",
+  "external_publication_or_messages_sent": false,
+  "independent_confirmatory_inference": "No pooling with development or pilot; no held-out model refitting",
+  "input_audit": "passed",
+  "main_evidence_audit": "passed",
+  "operational_issues": [
+    "Pre-measurement GPU free-memory guard abort retained",
+    "Historical JSONL input-audit parser corrected; first attempt log retained"
+  ],
+  "original_batch_model_replay": "bitwise identical",
+  "original_model_and_referenced_upstream_files_preserved": true,
+  "original_preparation_files_preserved": 25,
+  "remaining_required_work": [],
+  "scientific_figure_visually_inspected": true,
+  "scope": "Completed controlled AI-08 study; not a resolved general routing mechanism",
+  "singleton_replay": "failed unchanged absolute state-coordinate tolerance; retained and investigated"
+}

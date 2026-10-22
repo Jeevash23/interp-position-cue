@@ -1,0 +1,11 @@
+{
+  "confirmation_measurements_started": false,
+  "created_utc": "2026-10-08T08:48:49.509395+00:00",
+  "numerical_computation_changed": false,
+  "original_analysis_sha256": "4c54db26cd9fbf5bae592f48d5fe1b037af062c02195b6984b2baa48eb527f77",
+  "preserved_arrays_sha256": "4d7e05ecd2c0cfeff74e79333497a55380d6096622b8d9cb620640256e107a18",
+  "preserved_failure": "analysis/development-serialization-abort.log",
+  "reason": "Frozen analysis produced paired numerical scores but JSON export rejected a NumPy boolean scalar.",
+  "remedy": "Preserve original frozen code and failed output; wrap c.write to convert NumPy scalar values to equivalent Python scalars only.",
+  "wrapper_sha256": "aa5976f8f764e4539b2eca6f9f4e57ea520fdaa79232968f1c741789c4292ac9"
+}

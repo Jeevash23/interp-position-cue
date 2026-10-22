@@ -1,0 +1,21 @@
+{
+  "created_date": "2026-10-07",
+  "date_timezone": "[time zone]",
+  "inputs": {
+    "02-Code/prepare.py": "0d265a0f299d66bc8b62baf74bb72ae59cf8a56c93e852ac0df621c86e26f1a8",
+    "02-Code/support.py": "b405f60393c511f6d096fbe0d7007a05e17b4ddee5f0980d33c5be58734900d4",
+    "03-Data/config/pilot.json": "f5f0d929c03ba48eb7f795b42e07bc153426af21b1dbe0c63de9390dc0f64eca",
+    "05-Notes/PROTOCOL-DRAFT.md": "a5ca636481e591daa8774aa1cbf6798442623ffd9d58115db11e2c69ff4f5749"
+  },
+  "model_execution_performed": false,
+  "outputs": {
+    "counts.json": "c05d52e7cb9037ae88fba90f12400f63e76abc589efd9a6db6d8ffb0d91a080b",
+    "interventions.jsonl": "dcf08cecd028e4bae9d5d32931e9582b366449c74f6015ea5be2a4aeaae43048",
+    "recipients.jsonl": "7d99d735b7f44bbda4b1bbc7e9eac0631e56f97dd6276de9ca27e384f4fa824e",
+    "sources.jsonl": "6b88007c874564a9a5f968e11e5279b867327f9738999f8f094ef93c589a2297"
+  },
+  "project_id": "AI-08",
+  "record_type": "preparation_snapshot_not_scientific_freeze",
+  "schema_version": 1,
+  "tokenizer_loaded": false
+}

@@ -1,0 +1,19 @@
+{
+  "extra_calls_not_included": [
+    "clean_baselines",
+    "source_caching",
+    "calibration",
+    "mediator_tests"
+  ],
+  "gpu_used": false,
+  "matched_blocks": 64,
+  "model_runs_completed": 0,
+  "planned_condition_evaluations": 3328,
+  "project_id": "AI-08",
+  "recipient_prompts": 256,
+  "runner_implemented": false,
+  "runtime_estimate": null,
+  "source_pairs": 32,
+  "status": "text_preparation_only",
+  "tokenization_qualified": false
+}

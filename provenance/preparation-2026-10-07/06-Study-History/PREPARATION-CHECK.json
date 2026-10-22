@@ -1,0 +1,26 @@
+{
+  "project_id": "AI-08",
+  "date": "2026-10-07",
+  "timezone": "[time zone]",
+  "scope": "static_and_symbolic_preparation_checks_only",
+  "model_execution": false,
+  "gpu_used": false,
+  "files_downloaded": 0,
+  "checks": {
+    "relative_document_links": "passed",
+    "syntax_and_standard_library_imports": "passed",
+    "overwrite_refusal": "passed",
+    "invalid_scientific_input_rejected": "passed",
+    "semantic_input_verification": {
+      "project_id": "AI-08",
+      "check": "text_and_plan_semantics",
+      "status": "passed",
+      "prompt_pairs_checked": 288,
+      "fixed_sources": 32,
+      "planned_conditions": 3328,
+      "model_execution": false,
+      "tokenizer_loaded": false
+    },
+    "referenced_source_files_unchanged": "passed"
+  }
+}

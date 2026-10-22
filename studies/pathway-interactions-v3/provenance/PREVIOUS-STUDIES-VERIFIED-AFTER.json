@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "causal_followup": {
+    "files": 744,
+    "bytes": 8121685250
+  },
+  "prior_study": {
+    "files": 1712,
+    "bytes": 5443066061
+  },
+  "original_preparation_and_model_assets_preserved": true,
+  "condition_records": 28800,
+  "model_examples": 40256,
+  "scope": "Integrity and completed accounting; the strong scientific explanation criterion remains failed."
+}

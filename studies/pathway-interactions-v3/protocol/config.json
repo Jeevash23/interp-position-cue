@@ -1,0 +1,113 @@
+{
+  "device": "cuda",
+  "source_heads": [
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      12,
+      14
+    ]
+  ],
+  "consumer_heads": [
+    [
+      14,
+      14
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      17,
+      4
+    ],
+    [
+      19,
+      15
+    ]
+  ],
+  "numerical_absolute_tolerance": 0.0005,
+  "response_blocks": [
+    13,
+    18,
+    23
+  ],
+  "batch_size": 8,
+  "clean_top1_minimum": 0.85,
+  "clean_corrupt_margin_separation_minimum": 0.5,
+  "positive_margin_separation_fraction_minimum": 0.75,
+  "seed": 2026100821,
+  "capture_layers": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "strengths": [
+    0.5,
+    1.0
+  ],
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 2026100823,
+  "selection_attention_heads": 2,
+  "selection_mlp_blocks": 1
+}

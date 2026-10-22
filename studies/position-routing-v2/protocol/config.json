@@ -1,0 +1,103 @@
+{
+  "batch_size": 8,
+  "clean_corrupt_margin_separation_minimum": 0.5,
+  "clean_top1_minimum": 0.85,
+  "device": "cuda",
+  "numerical_absolute_tolerance": 0.0005,
+  "positive_margin_separation_fraction_minimum": 0.75,
+  "random_replicates": 4,
+  "response_blocks": [
+    13,
+    18,
+    23
+  ],
+  "seed": 2026100812,
+  "source_heads": [
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      12,
+      14
+    ]
+  ],
+  "strengths": [
+    -0.5,
+    0.5,
+    1.0
+  ],
+  "consumer_heads": [
+    [
+      14,
+      14
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      17,
+      4
+    ],
+    [
+      19,
+      15
+    ]
+  ],
+  "capture_layers": [
+    14,
+    15,
+    16,
+    17,
+    19
+  ],
+  "random_head_sets": 2,
+  "bootstrap_draws": 20000,
+  "confirmatory_name_units": 8,
+  "confirmatory_contexts": 8
+}

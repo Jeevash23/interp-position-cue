@@ -1,0 +1,31 @@
+{
+  "files": [
+    {
+      "path_from_field_root": "<earlier-project>/configs/study.json",
+      "bytes": 1679,
+      "sha256": "8621cdef9cf91c48b5f1340f6af13173a35f92a8abf9c8b0d2ad008d5a6b992d",
+      "use": "read_only_reference"
+    },
+    {
+      "path_from_field_root": "<earlier-project>/studies/bridge-007/code/prepare007.py",
+      "bytes": 15944,
+      "sha256": "bc15b657af3d53ad0db95d9efd98c24ff9c205469cf217836f88497b41553b82",
+      "use": "read_only_reference"
+    },
+    {
+      "path_from_field_root": "<earlier-project>/studies/bridge-007/code/runner007.py",
+      "bytes": 11311,
+      "sha256": "d6fda2b6497d7f4219aff51599e6d4c328dd151ac5537d1619066c3a615f9f68",
+      "use": "read_only_reference"
+    },
+    {
+      "path_from_field_root": "<earlier-project>/REPRODUCIBILITY.md",
+      "bytes": 11330,
+      "sha256": "fce9064ae471b41fcf742eeb55d768596cbf3131b083d54c25178346da65cded",
+      "use": "read_only_reference"
+    }
+  ],
+  "weights_read_or_hashed": false,
+  "environments_modified": false,
+  "qualification": "reference_only_no_runtime_validation"
+}

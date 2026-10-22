@@ -1,0 +1,42 @@
+# Unpacked from the release attachments (README.md, "Release files")
+# per-run-outputs.tar.gz
+/data/saved-outputs/study1-fixed-signal.tar.xz
+/data/saved-outputs/study2-position-routing.tar.xz
+/data/saved-outputs/study3-pathway-interactions.tar.xz
+# frozen-protocols.tar.gz
+/provenance/AMENDMENTS.md
+/provenance/preparation-2026-10-07/05-Notes/PROTOCOL-DRAFT.md
+/studies/fixed-signal-v1/protocol/ANALYSIS-FREEZE.json
+/studies/fixed-signal-v1/protocol/AUDIT-FREEZE.json
+/studies/fixed-signal-v1/protocol/CONFIRMATION-DESIGN-FREEZE.json
+/studies/fixed-signal-v1/protocol/HELDOUT-FREEZE.json
+/studies/fixed-signal-v1/protocol/QUALIFICATION-FREEZE.json
+/studies/fixed-signal-v1/protocol/RESPONSE-FREEZE.json
+/studies/fixed-signal-v1/provenance/pre-execution/05-Notes/PROTOCOL-DRAFT.md
+/studies/pathway-interactions-v3/protocol/CONFIRMATION-FREEZE.json
+/studies/pathway-interactions-v3/protocol/DESIGN-FREEZE.json
+/studies/pathway-interactions-v3/protocol/SELECTION-FREEZE.json
+/studies/pathway-interactions-v3/protocol/VERIFICATION-FREEZE.json
+/studies/position-routing-v2/protocol/CAUSAL-FREEZE.json
+/studies/position-routing-v2/protocol/QUALIFICATION-FREEZE.json
+/studies/position-routing-v2/protocol/VERIFICATION-FREEZE.json
+# Written by `make unpack` from the saved outputs and the compressed inputs
+/provenance/preparation-2026-10-07/03-Data/prepared/interventions.jsonl
+/studies/fixed-signal-v1/analysis/
+/studies/fixed-signal-v1/data/confirmation-qualified.json
+/studies/fixed-signal-v1/data/pilot-qualified.json
+/studies/fixed-signal-v1/provenance/pre-execution/03-Data/prepared/interventions.jsonl
+/studies/fixed-signal-v1/runs/
+/studies/pathway-interactions-v3/analysis/
+/studies/pathway-interactions-v3/data/inputs.json
+/studies/pathway-interactions-v3/runs/
+/studies/position-routing-v2/analysis/
+/studies/position-routing-v2/data/inputs.json
+/studies/position-routing-v2/runs/
+# Environments, caches, downloaded checkpoints, figures and rerun copies
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+/models/*/
+/reruns/
